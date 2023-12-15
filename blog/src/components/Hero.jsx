@@ -8,15 +8,13 @@ let data = [
 ];
 import photo1 from "../../public/photo1.png";
 import photo2 from "../../public/photo2.png";
-
-
 export default function Hero() {
   return (
     <>
       <div className="">
         {data.map((e) => {
           return (
-            <div key={v4()}
+            <div 
               className="w-[1200px] mb-2 rounded-[12px] relative h-[600px] bg-cover"
               style={{ backgroundImage: `url(${e.img})` }}
             >

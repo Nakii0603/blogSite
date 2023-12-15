@@ -28,7 +28,7 @@ export default function Trending() {
         {data.map((e) => {
           return (
             <div
-              key={v4()}
+
               className="w-[288px] cBorder  h-[320px] bg-cover  "
               style={{ backgroundImage: `url(${e.img})` }}
             >
