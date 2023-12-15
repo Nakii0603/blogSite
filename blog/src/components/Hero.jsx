@@ -8,7 +8,7 @@ let data = [
 ];
 import photo1 from "../../public/photo1.png";
 import photo2 from "../../public/photo2.png";
-import { v4 } from "uuid";
+
 
 export default function Hero() {
   return (
