@@ -1,28 +1,23 @@
-
 let data = [
   {
     img: "https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg",
     category: "Technology",
     text: "The Impact of Technology on the Workplace: How Technology is Changing",
-    id: v4(),
   },
   {
     img: "https://c4.wallpaperflare.com/wallpaper/827/65/320/firewatch-4k-best-wallpaper-preview.jpg",
     category: "Technology",
     text: "The Impact of Technology on the Workplace: How Technology is Changing",
-    id: v4(),
   },
   {
     img: "https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/dragon-ball-chromebook-wallpaper.jpg",
     category: "Technology",
     text: "The Impact of Technology on the Workplace: How Technology is Changing",
-    id: v4(),
   },
   {
     img: "https://i.pinimg.com/736x/ea/cd/ff/eacdff1ad46e3270c1af80f0ff7d0880.jpg",
     category: "Technology",
     text: "The Impact of Technology on the Workplace: How Technology is Changing",
-    id: v4(),
   },
 ];
 export default function Trending() {
