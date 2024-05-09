@@ -4,10 +4,8 @@ import Card from "@/components/Card";
 import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Create from "@/components/Create";
 import { useEffect, useState } from "react";
 import Trending from "@/components/Trending";
-import { CONFIG_FILES } from "next/dist/shared/lib/constants";
 
 let api = "https://dev.to/api/articles";
 
@@ -15,6 +13,7 @@ export default function Home() {
   const [data, setData] = useState([]);
   const [articleCount, setArticleCount] = useState(6);
   const router = useRouter();
+  console.log(data);
 
   const getData = async () => {
     let response = await axios.get(api);

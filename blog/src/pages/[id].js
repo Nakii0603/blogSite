@@ -7,8 +7,8 @@ export default function Detail() {
 
   const [data, setData] = useState(null);
   const fetchData = async () => {
-    let ap = `https://dev.to/api/articles/${params?.id}`;
-    let response = await axios.get(ap);
+    let api = `https://dev.to/api/articles/${params?.id}`;
+    let response = await axios.get(api);
     setData(response.data);
 
   };
@@ -17,8 +17,6 @@ export default function Detail() {
       fetchData();
     }
   }, [params]);
-
-
 
   return (
     <div className="flex justify-center">
@@ -29,7 +27,6 @@ export default function Detail() {
             <img src={data.social_image} />
             <p>{data.title}</p>
             <p>{data.body_markdown}</p>
-            <p>ç</p>
           </div>
         )}
       </div>
